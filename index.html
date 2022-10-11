@@ -1,3 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Datawrapper fallback images in print stylesheet</title>
+    <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+    </script>
+    <style>
+        .article {
+            max-width: 500px;
+            margin: auto;
+            font-family: sans-serif;
+            font-weight: 300;
+            line-height: 1.3;
+        }
+        h1 {
+            font-size:28px;
+        }
+        p {
+            margin: 40px 0px;
+        }
+        iframe[src*="datawrapper.dwcdn.net"] + img {
+            display: none;
+        }
+
+        @media print {
+            iframe[src*="datawrapper.dwcdn.net"] {
+                display: none;
+            }
+            iframe[src*="datawrapper.dwcdn.net"] + img {
+                display: block;
+                width: 100%;
+            }
+        }    
+    </style>
+</head>
+
+
 Nombre: Juan Sebastián Bustos-Cordero <br>
 Url: <a href = "https://js-vcxnnf.stackblitz.io">https://js-vcxnnf.stackblitz.io/</a> <br>
 GitHub: <a href = "https://github.com/Sebastian93BC/Visualizacion-AG.git">https://github.com/Sebastian93BC/Visualizacion-AG.git</a> <br>
@@ -5,28 +44,29 @@ GitHub: <a href = "https://github.com/Sebastian93BC/Visualizacion-AG.git">https:
 
 <h1>Visualización – AG1 </h1>
 <div id="Gráfico 1 " style="whight:300px" >
-<iframe width="1000" height="500" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWkFMMYso5_8CtFmU96298mFsKmT73tQXcArkKZ1_kvqpQdeUxq5JY0NJKAmvECMVrLdfxFBw3oS6f/pubchart?oid=1051423966&amp;format=interactive"></iframe>
-
+<iframe width="979" height="390" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWkFMMYso5_8CtFmU96298mFsKmT73tQXcArkKZ1_kvqpQdeUxq5JY0NJKAmvECMVrLdfxFBw3oS6f/pubchart?oid=1051423966&amp;format=interactive"></iframe>
+</div>
 
 
 <h1>Visualización – Gráficos Combinados. Múltiples Variables. </h1>
-<div id="Gráfico 2 " style="whight:300px" >
-<iframe width="1000" height="500" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWkFMMYso5_8CtFmU96298mFsKmT73tQXcArkKZ1_kvqpQdeUxq5JY0NJKAmvECMVrLdfxFBw3oS6f/pubchart?oid=1892051847&amp;format=interactive"></iframe>
-
+<div id="Gráfico 1 " style="whight:300px" >
+<iframe width="714" height="441" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWkFMMYso5_8CtFmU96298mFsKmT73tQXcArkKZ1_kvqpQdeUxq5JY0NJKAmvECMVrLdfxFBw3oS6f/pubchart?oid=1892051847&amp;format=image"></iframe>
+</div>
 
 <h1>Visualización – Diagrama de dispersión </h1>
-
 <div id="Gráfico 3 " style="whight:300px" >
-<iframe title="Relación: Emisión CO2 per capita  / Emisión Total" aria-label="Scatter Plot" id="datawrapper-chart-550in" src="https://datawrapper.dwcdn.net/550in/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="554"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-</script>
+<iframe title="Unemployment rate in selected countries" aria-label="Table" id="datawrapper-chart-yGrJQ" src="https://datawrapper.dwcdn.net/550in/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 75% !important; border: none;" height="612"></iframe>
+<img src="https://datawrapper.dwcdn.net/550in/full.png"/>
 </div>
+
 
 <h1>Gráficos de barras separando continentes </h1>
 <div id="Gráfico 4 " style="whight:300px" >
-
-<iframe title="TOP 10 EMISIONES CO2 2018" aria-label="Bar Chart" id="datawrapper-chart-X3VOQ" src="https://datawrapper.dwcdn.net/X3VOQ/3/" scrolling="no" frameborder="0" style="border: none;" width="600" height="550"></iframe>
-
+<iframe title="Unemployment rate in selected countries" aria-label="Table" id="datawrapper-chart-yGrJQ" src="https://datawrapper.dwcdn.net/X3VOQ/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 75% !important; border: none;" height="612"></iframe>
+<img src="https://datawrapper.dwcdn.net/X3VOQ/full.png"/>
 </div>
 
 <h1>Visualización – AG2 </h1>
 <h1>Visualización – AG3 </h1>
+
+
